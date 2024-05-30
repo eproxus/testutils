@@ -1,0 +1,17 @@
+{application, testutils, [
+    {description, "Useful test utilities"},
+    {vsn, semver},
+    {registered, []},
+    {applications, [
+        kernel,
+        stdlib
+    ]},
+    {env, []},
+    {modules, []},
+
+    {licenses, ["MIT"]},
+    {links, [
+        {"Changelog", "https://github.com/eproxus/testutils/blob/master/CHANGELOG.md"},
+        {"GitHub", "https://github.com/eproxus/testutils"}
+    ]}
+]}.
